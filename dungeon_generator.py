@@ -65,7 +65,7 @@ def generate_dungeon():
                 dungeon_map.append(edge)
                 Number_neighbours[u] += 1
                 Number_neighbours[v] += 1
-
+    dungeon_map[0] = (number_rooms, len(dungeon_map) - 1)
     print("Number of nodes and edges:", dungeon_map[0])  # Print the header (N, M)
     print("Edges in the dungeon:", dungeon_map[1:], "\n")  # Print the list of edges
 
