@@ -28,5 +28,3 @@ def validate_dungeon(dungeon_map):
 
     print("No valid path exists.\n")
     return None
-
-validate_dungeon(generate_dungeon())
