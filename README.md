@@ -678,5 +678,3 @@ No valid path exists.
 # 11. AI Usage Disclosure
 
 AI was used to discuss the interpretation of the Hamiltonian path problem and to assist with the wording and organization of this README.
-
-The implementation itself should be reviewed and understood by all group members. Prompt history can be supplied separately as required by the assignment instructions.
